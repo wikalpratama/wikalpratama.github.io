@@ -74,5 +74,19 @@ body {
     background-size: cover;
     color: white;
     
-    
+}
+
+.ceo {
+    padding-top: 100px;
+    min-height: 580px;
+    background-color: #FAFAFA;
+}
+
+.ceo img {
+    border: 5px solid #333;
+    width: 300px;
+}
+
+h3{
+    text-align: right;
 }
