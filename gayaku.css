@@ -1,4 +1,4 @@
-.jumbotron {
+#jumbohome {
     background-image:url(gambar/hellocodeblur.png);
     background-size: cover;
     height: 550px;
@@ -7,19 +7,39 @@
     
 }
 
-.jumbotron h1 {
+#jumbohome h1 {
     color: white;
     font-weight: 700;
     text-align: center;
     padding-top: 300px;
 }
 
-.jumbotron p {
+#jumbohome p {
     color: white;
     text-align: center;
     padding-top: 20px;
     font-size: 20px;
 }
+
+#jumbolearn {
+    background-image: url(gambar/learncode.png);
+    background-size: cover;
+    height: 550px;
+    min-height: 760px;
+}
+#jumbolearn h1 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 300px;
+}
+
+#jumbolearn p {
+    color : white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
 
 h2 {
     font-size: 35px;
@@ -97,6 +117,9 @@ body {
     padding-top: 20px;
 }
 
+.mapel img {
+  
+}
 
 /*FOOTER START///////////////////*/
 .footer {
