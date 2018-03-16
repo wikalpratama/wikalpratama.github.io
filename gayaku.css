@@ -66,6 +66,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 h2 {
     font-size: 35px;
     font-family: Roboto,sans-serif
@@ -143,13 +153,46 @@ body {
 
 
 
-.mapel button{
+button{
     width: 200px;
 }
 
 .caption {
    padding-bottom: 0;
 }
+
+
+.isi{
+    min-height: 580px;
+}
+
+.isi img{
+    width: 100px;
+}
+
+.isi h4{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*FOOTER START///////////////////*/
