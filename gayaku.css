@@ -18,7 +18,7 @@
     color: white;
     text-align: center;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #jumbolearn {
@@ -37,8 +37,33 @@
 #jumbolearn p {
     color : white;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
+
+#jumboboot {
+    background-image: url(gambar/bootcamp.png);
+    background-size: cover;
+    height: 550px;
+    min-height: 760px;
+}
+
+#jumboboot h1 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 300px;
+}
+
+#jumboboot p {
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
 
 
 h2 {
@@ -93,7 +118,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    
 }
 
 .ceo {
