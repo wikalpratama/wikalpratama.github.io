@@ -1,17 +1,21 @@
 <?php
-    
-$saran = $_POST['nama'];
-$nama = $_POST['nama'];
-$kesan = $_POST['kesan'];
-$univ = $_POST['univ'];
-$jurusan = $_POST['jurusan'];
 
-$to = "wikal.wp@email.unikom.ac.id";
-$subject "Mendapatkan kesan dan pesan";
-$body = "jangan balas pesan ini \n\n $request";
 
-mail ($to,$subject,$body);
+if (isset($_POST['submit'])) {
+    $saran = $_POST['saran'];
+    $nama = $_POST['nama'];
+    $email = $_POST['email'];
+    $univ = $_POST['univ'];
+    $jurusan = $_POST['jurusan'];
 
-echo "<a href='index.html'>klik</a> untuk kembali ke home"
+    $mailTo = "wikal.wp@email.unikom.ac.id";
+    $headers = "From: ".$email;
+    $txt ="ada pesan dan kesan baru dari ".$nama.".\n\n".$saran;
+
+    mail($mailTo, $subject, $txt, $headers);
+    header("Location: index.html?mailsend");
+}
+
+
 
 ?>
