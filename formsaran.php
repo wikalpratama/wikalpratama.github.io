@@ -6,7 +6,7 @@ if (isset($_POST['submit'])) {
     $nama = $_POST['nama'];
     $email = $_POST['email'];
     $univ = $_POST['univ'];
-    $jurusan = $_POST['jurusan'];
+    $jurusan = $_POST['jurusan'];   
 
     $mailTo = "wikal.wp@email.unikom.ac.id";
     $headers = "From: ".$email;

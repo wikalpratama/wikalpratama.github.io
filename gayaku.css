@@ -47,14 +47,23 @@
     min-height: 760px;
 }
 
-#jumboboot h1 {
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 300px;
-}
+
 
 #jumboboot p {
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+
+#jumbomading {
+    background-image: url(gambar/bootcamp.png);
+    background-size: cover;
+    height: 550px;
+    min-height: 760px;
+}
+
+#jumbomading p {
     color: white;
     padding-top: 20px;
     font-size: 25px;
@@ -65,21 +74,27 @@
 
 
 
-
-
-
-
-
-
-
-
+ h1 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 300px;
+}
 
 
 
 h2 {
-    font-size: 35px;
-    font-family: Roboto,sans-serif
+    font-size: 50px;
 }
+
+hr {
+    width: 30px;
+    border-top: 3px solid #eee
+    
+}
+
+
+
 
 p {
     font-size: 18px;
@@ -455,3 +470,33 @@ button{
         transform:         scale(1.3,1.3);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
