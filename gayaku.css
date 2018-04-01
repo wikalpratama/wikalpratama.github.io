@@ -73,6 +73,14 @@
 
 
 
+.animate {
+    transition: 0.8s;
+}
+
+.animate:hover{
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
 
  h1 {
     color: white;
