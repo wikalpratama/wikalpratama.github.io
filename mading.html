@@ -1,104 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Mading</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Mading</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="gayaku.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="gayaku.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    </head>
 
-<body>
+    <body>
 
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="margin: 0px;">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <nav class="navbar navbar-inverse navbar-fixed-top" style="margin: 0px;">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                <a href="index.html"><img src="gambar/icon2.png" style="width: 200px; margin-right: 20px; margin-left: 10px;" height="50px;">
-                    </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="learn.html">LEARN-CODE</a></li>
-                    <li><a href="bootcamp.html">BOOTCAMP-CODE</a></li>
-                    <li><a href="mading.html">MADING-CODE</a></li>
-                    <li><a href="#">BLOG-CODE</a></li>
-                    <li><a href="#">ABOUT-CODE</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-
-    <div class="jumbotron text-center" id="jumbomading">
-        <h1><kbd>MADING-CODE</kbd></h1>
-        <p>Upload hasil karya belajar anda di sini</p>
-    </div>
-    
-    <section class="judul text-center">
-       <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Berikut hasil karya belajar para codingers di <kbd>Hello, Code</kbd></h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="isi-mading text-center">
-        <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="#" class="thumbnail">
-                        <img src="gambar/icon/bootstrap.png">
-                        <div class="caption">
-                            <strong><h4>Wikal pratama</h4></strong>
-                            <p>Halo, selama saya belajar di hellocode saya sudah bisa membuat website portofolio saya sendiri loh</p>
-                        </div>
+                    <a href="index.html"><img src="gambar/icon2.png" style="width: 200px; margin-right: 20px; margin-left: 10px;" height="50px;">
                     </a>
                 </div>
-                <div class="col-md-4">
-                    <a href="#" class="thumbnail">
-                        <img src="gambar/icon/bootstrap.png">
-                        <div class="caption">
-                            <h4>Aldi Muhammad</h4>
-                            
-                        </div>
-                    </a>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="learn.html">LEARN-CODE</a></li>
+                        <li><a href="bootcamp.html">BOOTCAMP-CODE</a></li>
+                        <li><a href="mading.html">MADING-CODE</a></li>
+                        <li><a href="#">BLOG-CODE</a></li>
+                        <li><a href="about.html">ABOUT-CODE</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Daftar</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+
+        <div class="jumbotron text-center" id="jumbomading">
+            <h1><kbd id="madding">MADING-CODE</kbd></h1>
+            <p>Upload hasil karya belajar anda di sini</p>
+        </div>
+
+        <section class="judul text-center">
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Berikut hasil karya belajar para codingers di <kbd>Hello, Code</kbd></h3>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-</body>
+        <section class="isi-mading text-center">
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="gambar/icon/bootstrap.png">
+                            <div class="caption">
+                                <strong><h4><kbd>Wikal pratama</kbd></h4></strong>
+                                <p>Halo, selama saya belajar di hellocode saya sudah bisa membuat website portofolio saya sendiri loh</p>
+                                <button type="submit" class="btn btn-primary">
+                                    Lihat
+                                </button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="gambar/icon/java.png">
+                            <div class="caption">
+                                <h4><kbd>Aldi Muhammad</kbd></h4>
+                                <p>awalnya saya ragu belajar pemrograman, karena terlihat begitu sulit, namun ketika saya mencoba belajar dari dasar di <kbd>hello code</kbd> kini saya sudah bisa membuat program sederhana menggunakan java</p>
+                                <button type="submit" class="btn btn-primary">
+                                    Lihat
+                                </button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="gambar/icon/js.png">
+                            <div class="caption">
+                                <h4><kbd>Afif Nur Cahyo</kbd></h4>
+                                <p>Javascript memang sulit, namun <kbd>hello code</kbd> berhasil membuat materi pembelajarannya menjadi lebih mudah </p>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Lihat
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="gambar/icon/laravel.png">
+                            <div class="caption">
+                                <h4><kbd>Reza Jaya Mukti</kbd></h4>
+                                <p>Sangat sulit mencari website untuk belajar laravel yang benar-benar mudah difahami, untung ada <kbd>helo code</kbd> yang bisa menjadi solusi saya</p>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Lihat
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
 
 </html>
